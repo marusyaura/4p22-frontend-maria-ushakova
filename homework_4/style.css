@@ -8,12 +8,16 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 header {
+    background-color: white;
+    border: 1px solid #ff000000;
+    border-radius: 10px;
     display: flex;
     margin: 20px;
 }
 
 .logo{
     align-self: center;
+    margin-left: 10px;
 }
 
 li {
@@ -85,5 +89,8 @@ button {
 }
 
 footer {
+    background-color: white;
+    border: 1px solid #ff000000;
+    border-radius: 10px;
      margin: 20px;
 }
