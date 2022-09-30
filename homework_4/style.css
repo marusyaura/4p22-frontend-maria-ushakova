@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+background-color: whitesmoke;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+}
+
+h1 {
+    font-size: larger;
+    padding: 7px;
+}
+
+h2 {
+    font-size: medium;
+    font-weight: 100;
+    padding: 5px 5px 15px 5px;
+    color: rgb(138, 135, 135);
+}
+
+.price {
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.container {
+    width: 240px;
+    height: 360px;
+    background-color: white;
+    border: 1px solid #ff000000;
+    border-radius: 10px;
+    padding: 25px 10px;
+    margin: 10px 5px;
+}
+    
+.container-mix {    
+display: flex;
+flex-wrap: wrap;
+row-gap: 10px;
+column-gap: 10px;
+
+}
+
+a:link {
+    color: #d44f11;
+  }
+  
+a:visited {
+    color: #75e21c;
+  }
+  
+a:hover {
+    border-bottom: 1px solid;
+    background: #edf763;
+  }
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    border: 1px solid red;
+    background-image: url(buy.jpg);
+    background-size: 110%;
+    float: right;
+
+}
