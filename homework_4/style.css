@@ -9,7 +9,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 header {
     display: flex;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 li {
@@ -34,6 +34,10 @@ h2 {
     padding-top: 15px;
 }
 
+.img-container{
+    margin: 0 auto;
+}
+
 .container {
     width: 240px;
     height: 360px;
@@ -42,6 +46,7 @@ h2 {
     border-radius: 10px;
     padding: 25px 10px;
     margin: 10px 5px;
+    margin-left: 20px;
 }
     
 .container-mix {    
@@ -73,5 +78,8 @@ button {
     background-image: url(buy.jpg);
     background-size: 110%;
     float: right;
+}
 
+footer {
+     margin: 20px;
 }
