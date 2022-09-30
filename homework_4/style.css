@@ -12,6 +12,10 @@ header {
     margin: 20px;
 }
 
+.logo{
+    align-self: center;
+}
+
 li {
     display: inline;
 }
