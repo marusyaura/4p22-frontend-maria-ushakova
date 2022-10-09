@@ -2,41 +2,85 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Days', sans-serif;
+    background-color: #83a958;
+    color: #1a320f;
+}
+
+h2{
+    text-indent: 20px;
+}
+
 .common-header {
-    margin: 20px;
+    background-color: #427322;
+    height: 70px;
+    width: 1300px;
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    border: 2px solid #a3c185;
+    border-radius: 10px;  
+}
+
+.common-header__heading{
+    text-indent: 500px;
+    font-size: 22px;
+    position: absolute;
+    top: 0px;
+    color: #1a320f;
+ 
 }
 
 .section-links {
-    border-right: 2px solid grey;
     padding: 10px;
-    width: 250px;
+    width: 300px;
     margin-right: 30px;
-    position: absolute;
+    position: fixed;
+    top: 70px;
+    z-index: 2;
+    background-color: #83a958;
+    border: 2px solid #a3c185;
+    border-radius: 10px;
    }
 
 .common-section {
-    width: 800px;
-    margin: 20px;
+    width: 690px;
     position: relative;
-    left: 320px;
+    left: 305px;
+    top: 70px;
+    z-index: 7;
+    background-color: #a3c185;
+    border: 2px solid #a3c185;
+    border-radius: 10px;
 }
 
 .section-contents {
-    border-left: 2px solid grey;
     padding: 10px;
-    width: 250px;
+    width: 300px;
     margin-right: 75px;
     position: fixed;
+    top: 70px;
     left: 1000px;
+    z-index: 2;
+    background-color: #83a958;
+    border: 2px solid #a3c185;
+    border-radius: 10px;
    }
 
 .common-section__heading {
     position: sticky;
-    top: 20px;
+    top: 70px;
+    z-index: 8;
 }
 
 .common-section__content {
-    width: 800px;
-    text-indent: 40px;
+    width: 600px;
+    text-indent: 70px;
 }
 
+ul {
+    list-style-type: none;
+    font-family: 'A1011Helvetika-CoNdensedItalic', sans-serif;
+    font-size: 20px;
+}
