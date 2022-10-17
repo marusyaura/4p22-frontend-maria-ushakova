@@ -31,7 +31,7 @@ color: #787878;
 
 .form__heading {
     margin-left: calc(253 / 1440 * 100vw);
-    margin-top: calc(30 / 1440 * 100vw);
+    margin-top: calc(28 / 1440 * 100vw);
     justify-content: center;
     width: calc(115 / 1440 * 100vw);
     height: calc(50 / 1440 * 100vw);
@@ -53,15 +53,16 @@ margin-top: calc(3 / 1440 * 100vw);
 
 ::placeholder {
     color: #CCCCCC;
-    padding: calc(10 / 1440 * 100vw);
-    transform: translateY(calc(0.2 / 1440 * 100vw));
+    padding: calc(12 / 1440 * 100vw);
+    transform: translateY(calc(0.3 / 1440 * 100vw));
 }
 
 .form-input__email {
     display: flex;
     flex-direction: column;
-    margin-bottom: calc(16 / 1440 * 100vw);
+    margin-bottom: calc(14 / 1440 * 100vw);
     margin-left: calc(45 / 1440 * 100vw);
+    margin-top: calc(14 / 1440 * 100vw);
 }
 
 .form-input__password {
@@ -75,7 +76,7 @@ margin-top: calc(3 / 1440 * 100vw);
     display: flex;
     flex-direction: row;
     height: calc(24 / 1440 * 100vw);
-    width: calc(312 / 1440 * 100vw);
+    width: calc(330 / 1440 * 100vw);
     margin-left: calc(45 / 1440 * 100vw);
     position: relative;
     align-items: center;
@@ -86,7 +87,7 @@ margin-top: calc(3 / 1440 * 100vw);
     height: calc(52 / 1440 * 100vw);
     margin-bottom: calc(26 / 1440 * 100vw);
     position: absolute;
-    top: calc(334 / 1440 * 100vw);
+    top: calc(333 / 1440 * 100vw);
     left: calc(210 / 1440 * 100vw);
     padding: 0;
     border: 0;
@@ -113,7 +114,7 @@ margin-top: calc(3 / 1440 * 100vw);
     line-height: calc(16 / 1440 * 100vw);
     color: #787878;
     width: calc(40 / 1440 * 100vw);
-    margin-left: calc(10 / 1440 * 100vw);
+    margin-left: calc(9 / 1440 * 100vw);
 }
 
 .form-input__password-label {
@@ -128,7 +129,7 @@ margin-top: calc(3 / 1440 * 100vw);
     font-size: calc(14 / 1440 * 100vw);
     line-height: calc(16 / 1440 * 100vw);
     color: #787878;
-    margin-left: calc(5 / 1440 * 100vw);
+    margin-left: calc(10 / 1440 * 100vw);
 }
 
 .form-input__checkbox > input {
@@ -141,8 +142,8 @@ margin-top: calc(3 / 1440 * 100vw);
 }
 
 .form-input__checkbox > div {
-    width: calc(20 / 1440 * 100vw);
-    height: calc(20 / 1440 * 100vw);
+    width: calc(24 / 1440 * 100vw);
+    height: calc(24 / 1440 * 100vw);
     border-radius: calc(5 / 1440 * 100vw);
     border: calc(2 / 1440 * 100vw) solid #787878;
 }
@@ -160,6 +161,7 @@ margin-top: calc(3 / 1440 * 100vw);
         width: calc(728 / 768 * 100vw);
         height: calc(697 / 768 * 100vw);
         left: calc(20 / 768 * 100vw);
+        border-radius: calc(20 / 768 * 100vw);
         }
 
         h2 {
@@ -170,7 +172,7 @@ margin-top: calc(3 / 1440 * 100vw);
             
             .form__heading {
                 margin-left: calc(288 / 768 * 100vw);
-                margin-top: calc(38 / 768 * 100vw);
+                margin-top: calc(37 / 768 * 100vw);
                 justify-content: center;
                 width: calc(138 / 768 * 100vw);
                 height: calc(50 / 768 * 100vw);
@@ -187,8 +189,9 @@ margin-top: calc(3 / 1440 * 100vw);
             }
             
             .form-input__email {
-                margin-bottom: calc(35 / 768 * 100vw);
                 margin-left: calc(45 / 768 * 100vw);
+                margin-top: calc(14 / 768 * 100vw);
+                margin-bottom: calc(14 / 768 * 100vw);;
             }
             
             .form-input__password {
@@ -234,12 +237,12 @@ margin-top: calc(3 / 1440 * 100vw);
             .form-input__checkbox-label {
                 font-size: calc(18 / 768 * 100vw);
                 line-height: calc(16 / 768 * 100vw);
-                margin-left: calc(5 / 768 * 100vw);
+                margin-left: calc(10 / 768 * 100vw);
             }
             
             .form-input__checkbox > div {
-                width: calc(20 / 768 * 100vw);
-                height: calc(20 / 768 * 100vw);
+                width: calc(31 / 768 * 100vw);
+                height: calc(31 / 768 * 100vw);
                 border-radius: calc(5 / 768 * 100vw);
                 border: calc(2 / 768 * 100vw) solid #787878;
             }
@@ -248,5 +251,10 @@ margin-top: calc(3 / 1440 * 100vw);
                 width: calc(25 / 768 * 100vw);
                 height: calc(25 / 768 * 100vw);  
             }
+
+            ::placeholder {
+                padding: calc(12 / 768 * 100vw);
+                transform: translateY(calc(0.3 / 768 * 100vw));
+            }            
 
 }
