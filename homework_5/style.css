@@ -4,40 +4,40 @@
 
 body {
     font-family: 'Days', sans-serif;
+    font-size: 1.3vw;
     background-color: #83a958;
     color: #1a320f;
+    margin: 0;
 }
 
 h2{
     text-indent: 20px;
-}
-
-.common-header {
-    background-color: #427322;
-    height: 70px;
-    width: 1300px;
-    position: fixed;
-    top: 0px;
-    z-index: 9;
-    border: 2px solid #a3c185;
-    border-radius: 10px;  
+    font-size: 2vw;
 }
 
 .common-header__heading{
-    text-indent: 500px;
-    font-size: 22px;
-    position: absolute;
-    top: 0px;
+    font-size: 1,5em;
     color: #1a320f;
- 
+    text-align: center;
 }
+
+.common-header {
+    background-color: #a3c185;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    border: 2px solid #83a958;
+    border-radius: 10px; 
+}
+
+
 
 .section-links {
     padding: 10px;
-    width: 300px;
-    margin-right: 30px;
+    width: 25%;
     position: fixed;
-    top: 70px;
+    top: 4vh;
     z-index: 2;
     background-color: #83a958;
     border: 2px solid #a3c185;
@@ -45,10 +45,10 @@ h2{
    }
 
 .common-section {
-    width: 690px;
+    width: 50%;
     position: relative;
-    left: 305px;
-    top: 70px;
+    top: 4vh;
+    left: 25vw;
     z-index: 7;
     background-color: #a3c185;
     border: 2px solid #a3c185;
@@ -57,11 +57,10 @@ h2{
 
 .section-contents {
     padding: 10px;
-    width: 300px;
-    margin-right: 75px;
+    width: 25%;
     position: fixed;
-    top: 70px;
-    left: 1000px;
+    left: 75vw;
+    top: 4vh;
     z-index: 2;
     background-color: #83a958;
     border: 2px solid #a3c185;
@@ -70,12 +69,11 @@ h2{
 
 .common-section__heading {
     position: sticky;
-    top: 70px;
+    top: 6vh;
     z-index: 8;
 }
 
 .common-section__content {
-    width: 600px;
     text-indent: 70px;
 }
 
