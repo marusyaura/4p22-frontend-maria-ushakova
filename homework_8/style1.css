@@ -252,7 +252,7 @@ outline: hsl(101, 72%, 67%);
     position: absolute;
     width: calc(12 / 1440 * 100vw);
     height: calc(12 / 1440 * 100vw);
-    top: calc(2 / 1440 * 100vw);
+    top: calc(2.5 / 1440 * 100vw);
     left: calc(4 / 1440 * 100vw);
     border-radius: 50%;
     background-color: #787878;
@@ -291,7 +291,7 @@ outline: hsl(101, 72%, 67%);
     text-align: center;
     width: calc(12 / 1440 * 100vw);
     height: calc(12 / 1440 * 100vw);
-    top: calc(2 / 1440 * 100vw);
+    top: calc(2.5 / 1440 * 100vw);
     left: calc(4 / 1440 * 100vw);
     border-radius: 50%;
     background-color: #787878;
@@ -584,7 +584,7 @@ a {
             .form-input-radio__man label::after {
                 width: calc(12 / 768 * 100vw);
                 height: calc(12 / 768 * 100vw);
-                top: calc(4 / 768 * 100vw);
+                top: calc(2.5 / 768 * 100vw);
                 left: calc(4 / 768 * 100vw);
             }
             
@@ -597,7 +597,7 @@ a {
             .form-input-radio__woman label::after {
                 width: calc(12 / 768 * 100vw);
                 height: calc(12 / 768 * 100vw);
-                top: calc(4 / 768 * 100vw);
+                top: calc(2.5 / 768 * 100vw);
                 left: calc(4 / 768 * 100vw);
             }
         
