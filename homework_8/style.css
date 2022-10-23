@@ -99,18 +99,13 @@ font-weight: 700;
 color: #787878;
 font-size: calc(28 / 1440 * 100vw);
 line-height: calc(36 / 1440 * 100vw);
-margin-top: calc(3 / 1440 * 100vw);
+margin-top: calc(4 / 1440 * 100vw);
 outline: hsl(101, 72%, 67%);
 padding-left: calc(13 / 1440 * 100vw);
 }
 
 input:focus { 
     border-color: hsl(101, 72%, 67%); 
-    color: #787878;
-}
-
-input:active { 
-    color: #787878;
 }
 
 ::placeholder {
@@ -121,7 +116,7 @@ input:active {
 .form-input__email {
     display: flex;
     flex-direction: column;
-    margin-bottom: calc(11 / 1440 * 100vw);
+    margin-bottom: calc(10 / 1440 * 100vw);
     margin-left: calc(45 / 1440 * 100vw);
     margin-top: calc(18 / 1440 * 100vw);
 }
@@ -166,7 +161,7 @@ input:active {
     margin-left: calc(9 / 1440 * 100vw);
 }
 
-.form-input__password-label {
+.form-input-password__label {
     height: calc(16 / 1440 * 100vw);
     font-family: 'Roboto';
     font-style: normal;
@@ -295,7 +290,7 @@ a {
                 margin-left: calc(8 / 768 * 100vw);
             }
             
-            .form-input__password-label {
+            .form-input-password__label {
                 height: calc(16 / 768 * 100vw);
                 font-size: calc(16 / 768 * 100vw);
                 line-height: calc(16 / 768 * 100vw);
