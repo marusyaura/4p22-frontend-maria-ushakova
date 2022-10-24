@@ -204,19 +204,18 @@ outline: hsl(101, 72%, 67%);
     padding-top: calc(3 / 1440 * 100vw);
 }
 
-.form-input-radio__label {
-    padding-left: calc(29 / 1440 * 100vw);
-}
-
 .form-input-radio__box {
+    display: inline-flex;
+    align-items: center;
     font-weight: 400;
     font-size: calc(14 / 1440 * 100vw);
     line-height: calc(16 / 1440 * 100vw);
     position: relative;
-    margin-bottom: calc(8 / 1440 * 100vw);
-    margin-top: calc(7 / 1440 * 100vw);
+    margin-bottom: calc(4 / 1440 * 100vw);
+    margin-top: calc(5 / 1440 * 100vw);
     margin-left: calc(2 / 1440 * 100vw);
 }
+
 
 .form-input-radio__box > input {
     opacity: 0;
@@ -227,33 +226,20 @@ outline: hsl(101, 72%, 67%);
     left: 0;
 }
 
-
 .form-input-radio__box label::before {
     content: '';
-    position: absolute;
+    display: inline-flex;
     width: calc(20 / 1440 * 100vw);
     height: calc(20 / 1440 * 100vw);
     border-radius: 50%;
-    top: -10%;
-    left: 0;
     border: 2px solid #787878;
+    background-clip: content-box;
+    padding: calc(2 / 1440 * 100vw);
+    margin-right: calc(9 / 1440 * 100vw);
 }
 
-.form-input-radio__box label::after {
-    content: '';
-    position: absolute;
-    width: calc(12 / 1440 * 100vw);
-    height: calc(12 / 1440 * 100vw);
-    top: calc(1.5 / 1440 * 100vw);
-    left: calc(4 / 1440 * 100vw);
-    border-radius: 50%;
-    background-color: #787878;
-    opacity: 0;
-    transition: .2 opacity;
-}
-
-.form-input-radio__box input:checked + label::after {
-    opacity: 1;
+.form-input-radio__box input:checked + label::before {
+    background-color:#787878;
 }
 
 .form-input-radio__gender {
@@ -510,15 +496,11 @@ a {
                 padding-top: calc(3 / 768 * 100vw);
             }
             
-            .form-input-radio__label {
-                padding-left: calc(29 / 768 * 100vw);
-            }
-            
             .form-input-radio__box {
                 font-size: calc(14 / 768 * 100vw);
                 line-height: calc(16 / 768 * 100vw);
-                margin-bottom: calc(8 / 768 * 100vw);
-                margin-top: calc(6 / 768 * 100vw);
+                margin-bottom: calc(3 / 768 * 100vw);
+                margin-top: calc(5 / 768 * 100vw);
                 margin-left: calc(2 / 768 * 100vw);
             }
             
@@ -526,13 +508,8 @@ a {
                 width: calc(20 / 768 * 100vw);
                 height: calc(20 / 768 * 100vw);
                 border: 2px solid #787878;
-            }
-            
-            .form-input-radio__box label::after {
-                width: calc(12 / 768 * 100vw);
-                height: calc(12 / 768 * 100vw);
-                top: calc(1.5 / 768 * 100vw);
-                left: calc(4 / 768 * 100vw);
+                padding: calc(2 / 768 * 100vw);
+                margin-right: calc(9 / 768 * 100vw);
             }
         
             .form-input-radio__gender {
