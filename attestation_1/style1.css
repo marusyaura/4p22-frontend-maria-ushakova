@@ -208,25 +208,17 @@ outline: hsl(101, 72%, 67%);
     padding-left: calc(29 / 1440 * 100vw);
 }
 
-.form-input-radio__man {
+.form-input-radio__box {
     font-weight: 400;
     font-size: calc(14 / 1440 * 100vw);
     line-height: calc(16 / 1440 * 100vw);
     position: relative;
-    margin-bottom: calc(13 / 1440 * 100vw);
+    margin-bottom: calc(8 / 1440 * 100vw);
     margin-top: calc(7 / 1440 * 100vw);
     margin-left: calc(2 / 1440 * 100vw);
 }
 
-.form-input-radio__woman {
-    font-weight: 400;
-    font-size: calc(14 / 1440 * 100vw);
-    line-height: calc(16 / 1440 * 100vw);
-    position: relative;
-    margin-left: calc(2 / 1440 * 100vw);
-}
-
-.form-input-radio__man > input {
+.form-input-radio__box > input {
     opacity: 0;
     position: absolute;
     width: 100%;
@@ -236,7 +228,7 @@ outline: hsl(101, 72%, 67%);
 }
 
 
-.form-input-radio__man label::before {
+.form-input-radio__box label::before {
     content: '';
     position: absolute;
     width: calc(20 / 1440 * 100vw);
@@ -247,12 +239,12 @@ outline: hsl(101, 72%, 67%);
     border: 2px solid #787878;
 }
 
-.form-input-radio__man label::after {
+.form-input-radio__box label::after {
     content: '';
     position: absolute;
     width: calc(12 / 1440 * 100vw);
     height: calc(12 / 1440 * 100vw);
-    top: calc(2.5 / 1440 * 100vw);
+    top: calc(1.5 / 1440 * 100vw);
     left: calc(4 / 1440 * 100vw);
     border-radius: 50%;
     background-color: #787878;
@@ -260,46 +252,7 @@ outline: hsl(101, 72%, 67%);
     transition: .2 opacity;
 }
 
-.form-input-radio__man input:checked + label::after {
-    opacity: 1;
-}
-.form-input-radio__woman > input {
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.form-input-radio__woman label::before {
-    content: '';
-    position: absolute;
-    margin: 0 auto;
-    width: calc(20 / 1440 * 100vw);
-    height: calc(20 / 1440 * 100vw);
-    border-radius: 50%;
-    top: -10%;
-    left: 0;
-    border: 2px solid #787878;
-}
-
-.form-input-radio__woman label::after {
-    content: '';
-    position: absolute;
-    margin: 0 auto;
-    text-align: center;
-    width: calc(12 / 1440 * 100vw);
-    height: calc(12 / 1440 * 100vw);
-    top: calc(2.5 / 1440 * 100vw);
-    left: calc(4 / 1440 * 100vw);
-    border-radius: 50%;
-    background-color: #787878;
-    opacity: 0;
-    transition: .2 opacity;
-}
-
-.form-input-radio__woman input:checked + label::after {
+.form-input-radio__box input:checked + label::after {
     opacity: 1;
 }
 
@@ -561,43 +514,24 @@ a {
                 padding-left: calc(29 / 768 * 100vw);
             }
             
-            .form-input-radio__man {
+            .form-input-radio__box {
                 font-size: calc(14 / 768 * 100vw);
                 line-height: calc(16 / 768 * 100vw);
-                margin-bottom: calc(13 / 768 * 100vw);
+                margin-bottom: calc(8 / 768 * 100vw);
                 margin-top: calc(6 / 768 * 100vw);
                 margin-left: calc(2 / 768 * 100vw);
             }
             
-            .form-input-radio__woman {
-                font-size: calc(14 / 768 * 100vw);
-                line-height: calc(16 / 768 * 100vw);
-                margin-left: calc(2 / 768 * 100vw);
-            }
-            
-            .form-input-radio__man label::before {
+            .form-input-radio__box label::before {
                 width: calc(20 / 768 * 100vw);
                 height: calc(20 / 768 * 100vw);
                 border: 2px solid #787878;
             }
             
-            .form-input-radio__man label::after {
+            .form-input-radio__box label::after {
                 width: calc(12 / 768 * 100vw);
                 height: calc(12 / 768 * 100vw);
-                top: calc(2.5 / 768 * 100vw);
-                left: calc(4 / 768 * 100vw);
-            }
-            
-            .form-input-radio__woman label::before {
-                width: calc(20 / 768 * 100vw);
-                height: calc(20 / 768 * 100vw);
-                border: 2px solid #787878;
-            }
-            
-            .form-input-radio__woman label::after {
-                width: calc(12 / 768 * 100vw);
-                height: calc(12 / 768 * 100vw);
-                top: calc(2.5 / 768 * 100vw);
+                top: calc(1.5 / 768 * 100vw);
                 left: calc(4 / 768 * 100vw);
             }
         
