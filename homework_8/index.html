@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+</head>
+<body>
+<header>
+  <div class="form__heading" >
+     <h1>Калькулятор</h1>
+  </div>
+ 
+</header>
+<main>
+    <section class="form">
+       <section class="form__input">
+        <div class="form-input__num1">
+            <label class="form-input-num1__label" for="num1">Введите значение 1</label>
+            <input class="input" id="num1" name="num1" type="text" placeholder="Введите значение 1">
+          </div>
+          <div class="form-input__operator">
+            <label class="form-input-operator__label" for="operator">Введите действие</label>
+            <input class="input" id="operator" name="operator" type="text" placeholder="+ - / *">
+          </div>
+          <div class="form-input__num2">
+            <label class="form-input-num2__label" for="num2">Введите значение 2</label>
+            <input class="input" id="num2" name="num2" type="text" placeholder="Введите значение 2">
+          </div>
+          <div class="form__button">
+            <button onclick="func()" class="form-button" id="submit">Рассчитать</button>  
+          </div>
+          </section>
+        <div class="resultform" id="resultform"></div>
+</main>
+<script src="script.js"></script>
+<footer></footer>    
+</body>
+</html>
