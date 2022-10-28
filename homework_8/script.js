@@ -72,8 +72,14 @@ switch (operator) {
       if (result === Infinity) {
         resultform.innerText = "Операция некорректна";
         console.log("Операция некорректна");
-    
-      } else {
+      }
+
+      if (result === -Infinity) {
+        resultform.innerText = "Операция некорректна";
+        console.log("Операция некорректна");
+      } 
+      
+      else {
         resultform.innerText = result;
         console.log(result);
       }
