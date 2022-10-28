@@ -21,6 +21,16 @@ let result;
         resultform.innerText = "Второе число не указано";
         return console.log("Второе число не указано");
       }
+
+      if (num1 === " ") {
+        resultform.innerText = "Первое число не указано";
+        return console.log("Первое число не указано");
+      }
+    
+      if (num2 === " ") {
+        resultform.innerText = "Второе число не указано";
+        return console.log("Второе число не указано");
+      }
     
       if (isNaN(num1) === true || isNaN(num2) === true) {
         resultform.innerText = "Некорректный ввод чисел";
