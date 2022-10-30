@@ -4,6 +4,7 @@ const button = document.getElementById('submit');
 const resultform = document.getElementById('resultform');
 
 //button.addEventListener('click', (event) => {
+  
 function func() {
 const num1 = document.getElementById('num1').value;
 const operator = document.getElementById('operator').value;
@@ -68,13 +69,8 @@ switch (operator) {
         resultform.innerText = "Некорректный ввод чисел";
         return console.log("Некорректный ввод чисел");
       }
-    
-      if (result === Infinity) {
-        resultform.innerText = "Операция некорректна";
-        console.log("Операция некорректна");
-      }
 
-      if (result === -Infinity) {
+      if (result === -Infinity || result === Infinity) {
         resultform.innerText = "Операция некорректна";
         console.log("Операция некорректна");
       } 
