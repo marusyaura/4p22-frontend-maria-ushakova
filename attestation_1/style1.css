@@ -362,7 +362,7 @@ a {
   }
   
   a:visited {
-    color: hsl(101, 72%, 67%);
+    color: #787878;
   }
 
 @media screen and (max-width: 768px) {
