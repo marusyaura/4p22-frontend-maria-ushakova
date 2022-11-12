@@ -74,8 +74,15 @@ if (email === "") {
 
     else {
       if(validateEmail(email) === true && password.length >= 8 && password === passwordrepeat) {
+        inputPasswordrepeat.style.borderColor = '#787878';
+        inputPassword.style.borderColor = '#787878';
+        inputEmail.style.borderColor = '#787878';
+        emailError.innerText = '';
+        passwordrepeatError.innerText = '';
+        passwordError.innerText = '';
+
         makeUser()
-        return console.log(user)
+        
       }
     }
 
@@ -90,6 +97,7 @@ if (email === "") {
         user.agree = checkbox;
         user.gender = gender;
 
+        return console.log(user)
       }
 
       
