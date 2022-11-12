@@ -75,6 +75,7 @@ if (email === "") {
     else {
       if(validateEmail(email) === true && password.length >= 8 && password === passwordrepeat) {
         makeUser()
+        return console.log(user)
       }
     }
 
@@ -89,7 +90,6 @@ if (email === "") {
         user.agree = checkbox;
         user.gender = gender;
 
-        console.log(user);
       }
 
       
