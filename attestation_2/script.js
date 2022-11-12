@@ -72,10 +72,10 @@ if (email === "") {
       passwordrepeatError.innerText = "Пароли не совпадают";
     }
 
-    
-
     else {
-      makeUser();
+      if(validateEmail(email) === true && password.length >= 8 && password === passwordrepeat) {
+        makeUser()
+      }
     }
 
 
@@ -89,6 +89,8 @@ if (email === "") {
         user.agree = checkbox;
         user.gender = gender;
 
-        return console.log(user);
+        console.log(user);
       }
+
+      
 })
