@@ -32,16 +32,7 @@ function getGender() {
 
 getGender();
    
-if (email === "") {
-      inputEmail.style.borderColor = 'rgba(238, 36, 36, 1)';
-      emailError.innerText = "Поле обязательно для заполнения";
-      }
-
-    if (email === " ") {
-      inputEmail.style.borderColor = 'rgba(238, 36, 36, 1)';
-      emailError.innerText = "Поле обязательно для заполнения";
-    }
-
+    
     function validateEmail(email) {
       const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       return re.test(String(email).toLowerCase());
@@ -52,6 +43,11 @@ if (email === "") {
       emailError.innerText = "Email введён некорректно";
     }
     
+    if (!email) {
+      inputEmail.style.borderColor = 'rgba(238, 36, 36, 1)';
+      emailError.innerText = "Поле обязательно для заполнения";
+    }
+
     if (password.length < 8) {
       inputPassword.style.borderColor = 'rgba(238, 36, 36, 1)';
       passwordError.innerText = "Пароль должен содержать не менее 8 символов";
